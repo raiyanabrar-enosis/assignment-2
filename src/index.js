@@ -24,7 +24,7 @@ document.body.appendChild(renderer.domElement);
 const scene = new THREE.Scene();
 const camera = initCamera(renderer);
 
-//Light
+//Lights setup
 const lights = setupLights(scene);
 
 // Background using cube texture loader
